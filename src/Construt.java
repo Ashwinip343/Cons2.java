@@ -1,3 +1,7 @@
+//this keyword & super keyword
+//super keyword calls the consturctor of base class
+//This keyword is used to refer the current varible when the instant variable name and argument varible are same
+
 class B{
     B(){
         System.out.println("Parent class constructor");
