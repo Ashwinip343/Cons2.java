@@ -37,6 +37,7 @@ public class Interface_inheritance {
         obj1.method1();
         obj1.method2();
         obj1.method3();
+
         obj1.method4();
     }
 }
