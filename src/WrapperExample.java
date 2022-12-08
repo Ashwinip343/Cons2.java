@@ -1,3 +1,18 @@
+//Wrapper class = provides a way to use prmitive datat types as reference datatypes 
+///               Reference datatypes contains useful methods
+//                Can be used with collections(eg : Arraylist)
+
+// primitve datatypes are faster than refernece dsatadtypes 
+
+
+//Primitve       //Wrapper
+//--------------//---------
+//boolean       Boolean
+//char          Char
+//int           Integer
+//double        Double
+
+
 public class WrapperExample {
     public static void main(String[] args) {
         Integer num=45;
