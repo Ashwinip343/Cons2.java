@@ -48,7 +48,7 @@ public class Main{
       grocerylist.add(producelist);
       grocerylist.add(drinklist);
       
-      System.out.pprintln(grocerylist);
+      System.out.println(grocerylist);
      
  //---------------------For-Each-Loop---------------------------------------------
 //Traversing technique to iterate through elements in arraylist/collections
