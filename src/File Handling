@@ -1,0 +1,18 @@
+import java.io.File;
+
+public class Main{
+    public static void main(String Args[]){
+        File file =new File("Filename.txt");
+        
+        if(file.exists())
+          System.out.println("File exists");
+          System.out.println(file.getPath());
+          System.out.println(file.getAbsolutePath());
+          System.out.println(file.isfile());
+          file.delete();}
+        else{
+          System.out.println("File doesn't exist");}
+    }
+}
+
+          
