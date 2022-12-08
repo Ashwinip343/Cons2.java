@@ -1,0 +1,28 @@
+public class Methods{
+    public static void main(String Args[]){
+        //method= a block of code , that can be resused whenever required
+         
+         hello("Bro");
+         hello("Hey");                
+         hello();
+         
+         int x=4;
+         int y=9;
+         System.out.println(add(x,y));
+         
+        }
+         static void hello(String name){                                     //Static bcoz we're calling this is static method (psvm)
+              System.out.print("Hello "+name);}
+              
+         static void hello(){                                               //Method Overloading - methods with same name differ by arguments
+              System.out.print("Hello World!");}
+              
+         static int add(int a,int b){
+              return a+b;
+              
+              
+//We can use printf method in java too 
+
+     
+ }
+              
