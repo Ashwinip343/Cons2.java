@@ -1,0 +1,71 @@
+//Resizable array.
+//Elements can be added and removed after compilation phase
+//store refernece data types
+
+
+//--------------Methods-------------------
+//list.add(itemname);
+//list.set(index,itemname);
+//list.remove(itemname);
+//list.clear();
+//list.get(index).get(index)
+
+public class Main{
+    public static void main(String[] args){
+              ArrayList<String> food = new ArrayList<String>();
+              food.add("Pizza");
+              food.add("burger");
+              food.add("Frankie");
+              
+              food.set(0,"Hotdog");
+              food.remove(2);
+              food.clear();
+              for(int i=0;i<food.size(),i++){
+                  System.out.println(food.get(i));
+              }
+              
+              
+      //2_d Arraylist 
+      
+      ArrayList<ArrayList<String>> grocery = new ArrayList();
+      
+      ArrayList<String> bakerylist=new ArrayList();
+      bakerylist.add("Pasta");
+      bakerylist.add("Garlic bread");
+      bakerylist.add("Donuts");
+      
+      ArrayList<String> producelist=new ArrayList();
+      producelist.add("Tomatoes");
+      producelist.add("Zuchiini");
+      producelist.add("Pepper");
+      
+       ArrayList<String> drinklist=new ArrayList();
+      bakerylist.add("Coffee");
+      bakerylist.add("MilkShake");
+      bakerylist.add("Tea");
+      
+      grocerylist.add(bakerylist);
+      grocerylist.add(producelist);
+      grocerylist.add(drinklist);
+      
+      System.out.pprintln(grocerylist);
+     
+ //---------------------For-Each-Loop---------------------------------------------
+//Traversing technique to iterate through elements in arraylist/collections
+//less step , more readability
+//less flexible
+
+     for(String i:food){
+      System.out.println(i)
+      }
+     
+     
+     
+     
+              
+     }
+}
+
+
+
+    
