@@ -1,0 +1,10 @@
+//boolean result=name.equalsIgnoreCase("Hell");
+//name.length();
+//name.charAt(0);
+//name.indexOf("o");
+//name.isempty();
+//name.toUpperCase();
+//name.toLowerCase();
+//name.trim();
+//name.replace('e','o');
+
